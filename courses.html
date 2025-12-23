@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Education</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i></i>
+          <ul>
+           <li><a href="in">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-whiteboard fa-semibold fa-bars" onclick="showMenu()"></i></i>
+      </nav>
+      <h1> Our Certificate & Online Programs </h1>
+      
+    </section>
+
+    <!---blog page content-->
+    <section class="blog-content">
+      <div class="row">
+      <div class="blog-left">
+        <img src="/images/certificate.png" />
+        <h2>Our Certificate & Online Programs</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quia! Quisquam
+          quos, quidem quibusdam quia quam quae quod quos quibusdam quia quam quae
+          quod quos quibusdam quia quam quae quod quos quibusdam quia quam quae quod
+          quos quibusdam quia quam quae quod quos quibusdam quia quam quae quod quos
+          quibusdam quia quam quae quod quos quibusdam quia quam quae quod quos
+        </p>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque, culpa ipsum possimus a quas atque suscipit. Maiores voluptates eveniet tempore pariatur delectus perferendis vel, odit assumenda aut provident at?
+        </p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia dicta inventore culpa libero porro tenetur, esse quas deserunt voluptate incidunt aut, velit perferendis rerum deleniti. Necessitatibus quidem unde perferendis, eos porro nemo tenetur, assumenda at quia illo velit ut quae inventore quos sed ducimus minus sapiente libero beatae dolor rem quasi. Voluptas non quod ipsa deserunt molestiae. Explicabo?</p>
+
+
+        <div class="comment-box">
+          <h3>Leave a Comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+        </div>
+
+      </div>
+         <div class="blog-right">
+        <h3>Post Categories</h3>   
+         <div>
+          <span>Business Analytics</span>
+         <span>21</span>
+         </div>
+
+         <div>
+          <span>Marketing</span>
+         <span>28</span>
+         </div>
+
+         <div>
+          <span>Computer Science</span>
+         <span>15</span>
+         </div>
+
+         <div>
+          <span>AutoCAD</span>
+         <span>34</span>
+         </div>
+
+         <div>
+          <span>Journalism</span>
+         <span>28</span>
+         </div>
+
+         <div>
+          <span>Commerce</span>
+         <span>28</span>
+         </div>
+
+      </div>
+
+    </section>
+    
+
+<!-- ---footer -->  
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quia! Quisquam
+    quos, quidem quibusdam quia quam quae quod quos quibusdam quia quam quae
+    quod quos quibusdam quia quam quae quod quos quibusdam quia quam quae quod
+    quos quibusdam quia quam quae quod quos quibusdam quia quam quae quod quos
+    quibusdam quia quam quae quod quos quibusdam quia quam quae quod quos
+</p>
+<div class="icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-linkedin"></i>
+</div>
+<p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
+</section>
+
+
+
+
+<!-- javascript for toogle menu -->
+    <script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+
+    </script>
+  </body>
+</html>
